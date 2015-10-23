@@ -1,9 +1,14 @@
-## Java template project
-This is quick start java gradle project
-Actions:
+## Java servlet project
+This is servlet training project
+Pages:
 
-    - clone it:  git clone https://github.com/vmelnychuk/java-template-project.git
-    - remove remote:  git remote remove origin
-    - add new remote:  git remote add origin NEW_ORIGIN
-    - push master:  git push -u origin master
-    - git all stuff:  git push -u origin --all
+* Sign Up
+* Log In
+* Main page
+    - Hello
+        - show count on page visiting by current user with AJAX
+        - show count of total page visiting
+        - show date of last page visitig by current user
+    - Bye
+        - the same as for Hello
+* Log Out page
