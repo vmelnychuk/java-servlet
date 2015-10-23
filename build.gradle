@@ -13,6 +13,7 @@ task wrapper(type: Wrapper) {
 
 dependencies {
     providedCompile 'javax.servlet:servlet-api:2.5'
+    providedCompile 'javax.servlet.jsp:jsp-api:2.2'
     runtime 'javax.servlet:jstl:1.1.2'
     testCompile 'junit:junit:4.12'
 }

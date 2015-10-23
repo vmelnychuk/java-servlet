@@ -9,9 +9,41 @@
         <servlet-class>servlet.SignUpServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <display-name>SignInServlet</display-name>
+        <servlet-name>SignInServlet</servlet-name>
+        <servlet-class>servlet.SignInServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <display-name>LogOutServlet</display-name>
+        <servlet-name>LogOutServlet</servlet-name>
+        <servlet-class>servlet.LogOutServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Main</servlet-name>
+        <jsp-file>main.jsp</jsp-file>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>SignUpServlet</servlet-name>
         <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SignInServlet</servlet-name>
+        <url-pattern>/signin</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>LogOutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Main</servlet-name>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 
 </web-app>

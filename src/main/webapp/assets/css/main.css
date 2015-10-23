@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+}
+
+.menu {
+    position:absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10px;
+}
