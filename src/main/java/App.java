@@ -1,4 +1,3 @@
-import utils.StopWatch;
 
 public class App {
     public static void main(String[] args) {
