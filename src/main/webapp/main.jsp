@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,8 +15,7 @@
         boolean foundCookie = false;
         for(int i = 0; i < cookies.length; i++) {
             Cookie cookie = cookies[i];
-            if (cookie.getName().equals("user-id")) {
-                out.println("id = " + cookie.getValue());
+            if (cookie.getName().equals("userId-id")) {
                 foundCookie = true;
             }
         }

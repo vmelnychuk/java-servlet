@@ -6,9 +6,9 @@ Pages:
 * Log In
 * Main page
     - Hello
-        - show count on page visiting by current user with AJAX
+        - show count on page visiting by current userId with AJAX
         - show count of total page visiting
-        - show date of last page visiting by current user
+        - show date of last page visiting by current userId
     - Bye
         - the same as for Hello
 * Log Out page

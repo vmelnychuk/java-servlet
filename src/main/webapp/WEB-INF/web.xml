@@ -20,11 +20,13 @@
         <servlet-name>LogOutServlet</servlet-name>
         <servlet-class>servlet.LogOutServlet</servlet-class>
     </servlet>
+    
+    <filter>
+        <filter-name>HintsCount</filter-name>
+        <filter-class>filter.HintsCount</filter-class>
+    </filter>
 
-    <servlet>
-        <servlet-name>Main</servlet-name>
-        <jsp-file>main.jsp</jsp-file>
-    </servlet>
+    <!-- mappings -->
 
     <servlet-mapping>
         <servlet-name>SignUpServlet</servlet-name>
@@ -41,9 +43,13 @@
         <url-pattern>/logout</url-pattern>
     </servlet-mapping>
 
-    <servlet-mapping>
-        <servlet-name>Main</servlet-name>
-        <url-pattern>/</url-pattern>
-    </servlet-mapping>
+    <filter-mapping>
+        <filter-name>HintsCount</filter-name>
+        <url-pattern>/*.html</url-pattern>
+    </filter-mapping>
+
+    <welcome-file-list>
+        <welcome-file>main.jsp</welcome-file>
+    </welcome-file-list>
 
 </web-app>
